@@ -1,23 +1,28 @@
 import Head from 'next/head'
-import Header from '@components/Header'
-import Footer from '@components/Footer'
 
 export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Next.js Starter!</title>
+        <title>Walking About</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
-        <Header title="Welcome to my app!" />
-        <p className="description">
-          Get started by editing <code>pages/index.js</code>
-        </p>
-      </main>
+        <div className="bg-zinc-700 text-white">
+          <img src="/logo.png" alt="Walking About Logo" />
 
-      <Footer />
+          <p>
+            We're taking a bit of a break but we'll be back, bigger and better at some point in the future.
+          </p>
+          <p>
+            Thank you for visiting the site.
+          </p>
+          <p>
+            To keep up to date on walks that I've been doing, <a href="https://www.instagram.com/scottbrown_14/">feel free to follow me on Instagram</a>.
+          </p>
+        </div>
+      </main>
     </div>
   )
 }

@@ -4,6 +4,9 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell,
     Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background: #223;
+  color: #EEF;
+  text-align: center;
 }
 
 * {
@@ -32,4 +35,12 @@ code {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+a:link, a:Visited {
+  color: #6AF;
+}
+
+a:hover, a:active {
+  color: #FFF;
 }
